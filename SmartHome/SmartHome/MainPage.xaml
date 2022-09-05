@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartHome.MainPage" BackgroundColor="White">
+
+    <StackLayout>
+
+        <Frame BackgroundColor="#7AB800" Opacity="1" Padding="24" CornerRadius="0">
+            <Label Text="Smart Home" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            
+
+        </Frame>
+        <Button Text="Turn On Bulb" 
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center" Padding="10" FontSize="Large"
+                Clicked="TurnOnFan" BackgroundColor="#7AB800"/>
+
+        <Button Text="Turn Off Bulb" TextColor="White"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center" Padding="10" FontSize="Large"
+                Clicked="TurnOffFan" BackgroundColor="#817978"/>
+
+    </StackLayout>
+
+</ContentPage>
